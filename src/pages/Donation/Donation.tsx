@@ -1,7 +1,7 @@
-function Donation()  {
+import {Container} from '@mui/material';
+
+export default function Donation()  {
     return(
-        <div>Donation</div>
+        <Container>Donation</Container>
     )
 }
-
-export default Donation;

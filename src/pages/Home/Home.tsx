@@ -1,7 +1,15 @@
-function Home()  {
+import {Container} from '@mui/material';
+import HeroImage from '../../components/HeroImage/HeroImage.tsx';
+
+export default function Home()  {
     return(
-        <div>Home</div>
+        <div>
+            <HeroImage/>
+            <Container>
+                Home
+            </Container>
+
+        </div>
     )
 }
 
-export default Home;

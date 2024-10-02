@@ -1,7 +1,7 @@
-function Contact()  {
+import {Container} from '@mui/material';
+
+export default function Contact()  {
     return(
-        <div>Contact</div>
+        <Container>Contact</Container>
     )
 }
-
-export default Contact;

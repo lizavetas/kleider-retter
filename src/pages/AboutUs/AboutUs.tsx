@@ -1,7 +1,7 @@
-function AboutUs()  {
+import {Container} from '@mui/material';
+
+export default function AboutUs()  {
     return(
-        <div>AboutUs</div>
+        <Container>AboutUs</Container>
     )
 }
-
-export default AboutUs;
